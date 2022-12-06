@@ -1,0 +1,16 @@
+{
+    "verbose": false,
+    "ignore": [
+        "node_modules/**",
+        "dist/**",
+        "coverage/**",
+        "test/**",
+        ".rollup.cache"
+    ],
+    "delay": 500,
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,jsx,ts,tsx,html,css",
+    "exec": "npm run build"
+}
