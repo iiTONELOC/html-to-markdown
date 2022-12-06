@@ -1,7 +1,8 @@
 # HTML to MARKDOWN Converter
 
 ![icon-library-markdown](https://icon-library.com/images/markdown-icon/markdown-icon-2.jpg)
-[Image Provided By Free Icons Library](https://icon-library.com/icon/markdown-icon-8.html.html)
+[Image Provided By Free Icons Library](https://icon-library.com/icon/markdown-icon-8.html.html)  
+
 ![License](https://img.shields.io/github/license/iiTONELOC/html-to-markdown?style=plastic&label=License)
 ![Languages](https://img.shields.io/github/languages/count/iitoneloc/html-to-markdown?style=plastic&label=Languages) ![git-hub-top-language](https://img.shields.io/github/languages/top/iiTONELOC/html-to-markdown?color=blue&label=TypeScript&style=plastic)
 
