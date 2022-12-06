@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Markdown, Convert, Converter">
+    <meta name="author" content="Anthony Tropeano">
+    <title>HTML to Markdown Converter</title>
+    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="shortcut icon" href="./public/assets/images/icons8-markdown-96.png" type="image/x-icon">
+    <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
+    <script src="https://unpkg.com/turndown-plugin-gfm/dist/turndown-plugin-gfm.js"></script>
+</head>
+
+<body class="w-screen h-screen bg-zinc-900 text-gray-200 overflow-hidden">
+    <section class="flex h-full flex-row flex-wrap justify-center w-full overflow-y-auto p-3 text-shadow">
+        <header>
+            <h1 class="text-4xl text-center mt-3">
+                <span class="text-emerald-600">HTML</span>
+                <span class="text-purple-500">to</span>
+                <span class="text-emerald-600">Markdown</span>
+            </h1>
+        </header>
+        <div class="flex w-full justify-center">
+            <div class="w-1/2 mt-8">
+                <label for="html-input" hidden>Paste HTML to Convert Here:</label>
+                <textarea id="html-input" name="html-input"
+                    class="w-full h-96 text-gray-200 p-4 bg-zinc-700 border-2 border-zinc-800 rounded-md"
+                    placeholder="Paste HTML here"></textarea>
+            </div>
+        </div>
+        <button id="convert-button"
+            class="px-4 py-2 h-12 bg-zinc-800 rounded-md mt-8 hover:cursor-not-allowed text-shadow">
+            Convert to Markdown
+        </button>
+
+        <div id="converted-parent" class="flex w-full flex-row flex-wrap justify-center hidden mt-8">
+            <div class="flex flex-row flex-wrap w-full justify-center">
+                <h2 class="w-full text-center text-4xl my-8">Converted</h2>
+                <hr>
+                <label for="converted-html" hidden>Converted HTML:</label>
+                <textarea class="w-1/2 bg-zinc-700 p-3 rounded-md h-48" id="converted-html">
+
+                </textarea>
+            </div>
+
+            <div class="w-full flex flex-row flex-wrap justify-center gap-x-8 items-center">
+                <button id="copy-converted-html" class="my-8 w-auto h-12 px-4 py-2 bg-sky-600 rounded-md 
+                            hover:bg-emerald-600 hover:scale-105 text-shadow font-bold">
+                    Copy to Clipboard
+                </button>
+
+                <button id="clear" class="my-8 w-auto h-12 px-4 py-2 bg-orange-600 rounded-md 
+                                        hover:bg-red-600 hover:scale-105 text-shadow font-bold">
+                    Clear
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="./index.esm.js" type="text/javascript"></script>
+
+</html>
