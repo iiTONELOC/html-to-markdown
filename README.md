@@ -12,6 +12,10 @@ Turn HTML into GitHub Flavored Markdown.
 
 ## Features
 
+## DEMO
+
+Click the link to view the live deployment [HTMLtoMarkdown](https://iitoneloc.github.io/html-to-markdown/).
+
 HTML to Markdown is a Single Page Application (SPA) built using the following technologies:
 
 ### Tech-Stack
@@ -26,10 +30,6 @@ HTML to Markdown is a Single Page Application (SPA) built using the following te
 | GitHub Pages                         | [GitHub Pages](https://pages.github.com/)                        |
 
 ## Usage
-
-### Live Deployment
-
-You can access the application at [https://iitoneloc.github.io/html-to-markdown/](https://iitoneloc.github.io/html-to-markdown/).
 
 ### Local Usage
 
