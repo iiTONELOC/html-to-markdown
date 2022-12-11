@@ -1,4 +1,4 @@
-# HTML to MARKDOWN Converter
+# HTML to Markdown Converter
 
 ![icon-library-markdown](https://icon-library.com/images/markdown-icon/markdown-icon-2.jpg)
 [Image Provided By Free Icons Library](https://icon-library.com/icon/markdown-icon-8.html.html)  
